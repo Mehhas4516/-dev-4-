@@ -1,0 +1,5 @@
+SELECT distinct  replacement_cost   FROM film;
+SELECT COUNT (distinct  replacement_cost)   FROM film;
+SELECT   count (title) FROM film where title like('T%') AND rating='G';
+select count(country) from country where country like   '_______';
+select count (city) from city where city ILike  '%R';
